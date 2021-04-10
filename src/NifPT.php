@@ -12,7 +12,7 @@ class NifPT
 {
 	protected $allowedInit = [1, 2, 3, 5, 6, 8, 9];
 	
-	public function check(array $codes, string $type, bool $getType = false)
+	public function check(array $codes, bool $getType = false, string $type = 'nif')
 	{
 		$results = [];
 
