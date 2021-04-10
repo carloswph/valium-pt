@@ -1,0 +1,13 @@
+{
+    "name": "carloswph/valium-pt",
+    "description": "Validation for the Portuguese market.",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+    	"psr-4": {
+    		"Valium\\": "src/"
+    	}
+    }
+}
