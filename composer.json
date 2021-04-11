@@ -4,10 +4,11 @@
     "type": "library",
     "license": "MIT",
     "minimum-stability": "dev",
+    "keywords": ["validation", "portugal", "iban", "nif", "contribuinte", "finanças", "segurança social", "niss"],
     "require": {},
     "autoload": {
     	"psr-4": {
-    		"Valium\\": "src/"
+    		"Valium\\PT\\": "src/"
     	}
     }
 }

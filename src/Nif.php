@@ -1,6 +1,6 @@
 <?php 
 
-namespace Valium;
+namespace Valium\PT;
 
 /**
  * Validates an array of NIF numbers for the Portuguese market.
@@ -8,7 +8,7 @@ namespace Valium;
  * @since  1.0.0
  * @author  WP Helpers | Carlos Matos
  */
-class NifPT
+class Nif
 {
 	protected $allowedInit = [1, 2, 3, 5, 6, 8, 9];
 	

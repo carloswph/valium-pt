@@ -1,6 +1,6 @@
 <?php 
 
-namespace Valium;
+namespace Valium\PT;
 
 /**
  * Validates an array of NISS numbers for the Portuguese market.
@@ -8,7 +8,7 @@ namespace Valium;
  * @since  1.0.0
  * @author  WP Helpers | Carlos Matos
  */
-class NissPT
+class Niss
 {
 	protected $allowed = [29, 23, 19, 17, 13, 11, 7, 5, 3, 2];
 
