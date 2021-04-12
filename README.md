@@ -13,6 +13,7 @@ Each type of number has its own class, and can be used by instantiating the resp
 ```php
 use Valium\PT\Nif;
 use Valium\PT\Niss;
+use Valium\PT\Iban;
 
 require __DIR__ . '/vendor/autoload.php';
 
