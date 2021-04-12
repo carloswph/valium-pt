@@ -19,9 +19,9 @@ require __DIR__ . '/vendor/autoload.php';
 
 $nif = new Nif();
 // Returns a bool for each number in the array
-$q = $nif->check([291659411, 720014360, '291633170', 980547490, 281234500, 510837620]);
+$q = $nif->check([720014360, '291653170', 980547490, 281234500, 510837620]);
 // Returns the type of tax payer for each valid number
-$r = $nif->check([291659411, 720014360, '291633170', 980547490, 281234500, 510837620], true);
+$r = $nif->check([292679411, '720014360', 980547490, 281234500, 510837620], true);
 
 var_dump($q);
 var_dump($r);
