@@ -5,6 +5,7 @@ Valium is an initiative that envisions to offer validation classes in PHP for ch
 * NIF/NIPC
 * NISS
 * IBAN
+* BI
 
 # Usage
 
@@ -37,4 +38,10 @@ $iban = new Iban();
 $t = $iban->check(['PT50003300004549519501405', 'PT50001200004549519501405']);
 
 var_dump($t);
+
+$bi = new Bi();
+// As an input, an array of the BI numbers together with the control digit (the first number before the two letters, XX, XY, i.e)
+$x = $bi->check(['108015750', '34521320']);
+
+var_dump($x);
 ```
